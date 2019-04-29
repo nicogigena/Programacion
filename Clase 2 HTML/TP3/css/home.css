@@ -1,0 +1,18 @@
+body {
+  background-image: url("../img/emilia-home.jpg");
+  background-repeat: no-repeat;
+  background-size: 75%,75%;
+  background-position: top right;
+}
+ul{
+  text-decoration: none;
+  line-height: 30px;
+}
+h1{
+  font-size: 62px;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#emilia{
+  font-size: 30px;
+}

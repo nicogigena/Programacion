@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+ul{
+  padding:0;
+  width: 100%;
+}
+
+
+body {
+  background-image: url("../html/images/bg-body.png")
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  position: relative;
+  height: 30vh;
+  margin-bottom:10px;
+}
+
+header img{
+  position:absolute;
+  left: 40%;
+  height: 65%;
+  border-radius: 50%;
+}
+
+
+nav {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height:30%;
+}
+
+nav ul{
+  overflow: hidden;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  width: 12.5%;
+  margin-right: 5%;
+  background-color: #25282d;
+  text-align: center;
+  height: 100%;
+  padding-top: 21px;
+}
+
+nav ul li:last-child {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: auto;
+}
+
+@media (max-width: 1000px) {
+  nav a{
+    font-size: 12px;
+  }
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner {
+  margin-bottom: 25px;
+}
+
+.vip-products{
+  overflow: hidden;
+}
+
+.product{
+  width: 31%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 15px;
+}
+
+.photo-container{
+  position: relative;
+  width: 100%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.photo-container .special{
+  position:absolute;
+  top:0;
+  right: 5px;
+  width: 20%;
+}
+
+.photo-container div{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  top:40%;
+  height: 24px;
+  padding-top:1.5px;
+}
+
+.photo-container div a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  color: white;
+}
+
+.divmore {
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+
+.more {
+  font-size: 12px;
+  text-decoration: none;
+  color:white;
+}
+
+footer{
+  background-color: #8e1d1d;
+  position: relative;
+  height: 20vh;
+  padding-top:60px;
+}
+
+footer ul{
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 40%;
+  width: 50%;
+  left: 25%;
+}
+
+footer ul li {
+  list-style: none;
+  float: left;
+  border-right: white solid 1px;
+  padding:1%;
+}
+
+footer ul li:last-child {
+  margin: 0;
+  border-right: none;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: auto;
+}
+
+@media only screen and (max-width:768px) {
+  nav ul li{
+    padding-top: 11px;
+    height:65%;
+  }
+  header{
+    height: 20vh;
+  }
+  footer ul li{
+    width:100%;
+    border:none;
+  }
+  footer ul{
+    top:0;
+  }
+  footer{
+    height: 200px;
+    padding:0;
+
+  }
+}

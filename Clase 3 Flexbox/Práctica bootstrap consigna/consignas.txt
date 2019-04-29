@@ -1,0 +1,8 @@
+
+Esperamos que puedas armar un sitio como el que mostramos en los mockups, se encuentran en la ruta "./mockups".
+
+Contarás con un archivo que contiene toda la estructura de hyper text markup language necesaria, sólo podrás valerte de clases de bootstrap para llegar al estilo esperado.
+
+Todas las imágenes necesarias, se encuentran en la ruta "./img".
+
+
